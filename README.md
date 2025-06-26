@@ -2,6 +2,10 @@
 
 **SmileTrack** este o aplicație web full-stack, dezvoltată ca proiect de licență, destinată gestionării activității unei clinici stomatologice. Aceasta permite gestionarea programărilor, recenziilor, și a utilizatorilor (pacienți, medici și administratori), oferind o interfață modernă și intuitivă.
 
+## Adresa repository-ului
+
+[Github : SmileTrack](https://github.com/ssabiescu/Licenta-INFO)
+
 ## 👨‍🔧 Tehnologii utilizate
 
 - Frontend: HTML, CSS, Bootstrap
@@ -17,7 +21,7 @@ Descarcă și instalează [WAMP](https://www.wampserver.com/en/) pentru a rula s
 
 ### 2. Clonează repository-ul
 ```bash
-git clone https://github.com/NUME-UTILIZATOR/SmileTrack.git
+git clone https://github.com/ssabiescu/Licenta-INFO.git
 ```
 
 ### 3. Mută proiectul în directorul WAMP
