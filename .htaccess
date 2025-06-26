@@ -1,0 +1,5 @@
+# Activare URL rewriting
+RewriteEngine On
+
+# Redirecționare către pagina 404 personalizată
+ErrorDocument 404 /SmileTrack/404.php

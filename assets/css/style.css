@@ -1,0 +1,102 @@
+/* -----------------------
+STIL GENERAL
+------------------------ */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right top, #f0f8ff, #e6f0ff);
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* -----------------------
+TITLURI
+------------------------ */
+.section-title {
+  text-align: center;
+  color: #0d6efd;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* -----------------------
+CARDURI
+------------------------ */
+.card {
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* -----------------------
+BUTOANE
+------------------------ */
+.btn-primary {
+  background-color: #0077ff !important;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.btn-primary:hover {
+  background-color: #005dd1 !important;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+}
+.btn-warning:hover {
+  background-color: #e0a800;
+  color: #000;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+.btn-danger:hover {
+  background-color: #bb2d3b;
+}
+
+/* -----------------------
+TEXT EVIDENTIAT
+------------------------ */
+.highlight {
+  background-color: #e6f2ff;
+  padding: 5px 10px;
+  border-left: 4px solid #0d6efd;
+  margin: 15px 0;
+  font-style: italic;
+}
+
+/* -----------------------
+FOOTER
+------------------------ */
+footer {
+  background: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 1px solid #ddd;
+}
+
+/* -----------------------
+NAVBAR
+------------------------ */
+.navbar {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #0d6efd !important;
+}
